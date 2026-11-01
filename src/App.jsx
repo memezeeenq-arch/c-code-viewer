@@ -10,8 +10,9 @@ import p6 from "./programs/p6.c?raw";
 import p7 from "./programs/p7.c?raw";
 import p8 from "./programs/p8.c?raw";
 import p9 from "./programs/p9.c?raw";
+import p10 from "./programs/p10.c?raw";
 
-const programs = { 1: p1, 2: p2, 3: p3, 4: p4, 5: p5, 6: p6, 7: p7, 8: p8, 9: p9 };
+const programs = { 1: p1, 2: p2, 3: p3, 4: p4, 5: p5, 6: p6, 7: p7, 8: p8, 9: p9, 10: p10 };
 
 function ProgramRoute() {
   const { number } = useParams();
